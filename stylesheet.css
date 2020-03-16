@@ -2,7 +2,7 @@ body {
   color: #333;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
-  background-image: url(jin-shu.github.io/toa-heftiba-linZWYXCREI-unsplash.jpg);
+  background-image: url(img/toa-heftiba-linZWYXCREI-unsplash.jpg);
   width: cover;
 }
 
@@ -15,7 +15,7 @@ header {
   /* background-image: url(img/toa-heftiba-linZWYXCREI-unsplash.jpg); */
 }
 
-# {
+#practice1 {
   display: grid;
   grid-template-rows: 100px 50px;
   grid-template-columns: 150px 1fr;
