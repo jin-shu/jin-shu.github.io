@@ -38,3 +38,27 @@ header {
   grid-column: 2;
   background-color: #88f;
 }
+
+#practice2 {
+  display: grid;
+  grid-template-rows: 50px 100px;
+  grid-template-columns: 60% 40%;
+  grid-template-areas:
+    "areaD areaE"
+    "areaD areaF";
+}
+
+#itemD {
+  grid-area: areaD;
+  background-color: #66f;
+}
+
+#itemE {
+  grid-area: areaE;
+  background-color: #6f6;
+}
+
+#itemF {
+  grid-area: areaF;
+  background-color: #f66;
+}
